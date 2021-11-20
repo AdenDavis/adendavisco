@@ -27,8 +27,18 @@
     margin-left: 75%;
 }
 .navbar-brand{
-    padding-left: 150px; 
+    padding-left: 150px;
+    color:#333333;
 }
+.navbar-brand h5{
+    color: #333333;
+    transition: transform 1s, color .5s;
+}
+.navbar-brand h5:hover{
+    color: #3a86ff;
+    transform:scale3d(1.1, 1.1, 1.1);
+}
+
 
 /* HERO */
 
@@ -40,6 +50,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    color:#333333;
    
 }
 
@@ -61,6 +72,7 @@
     align-items:center;
     display: flex;
     flex-direction: column;
+    color: #333333;
     
 }
 
@@ -72,6 +84,7 @@
     
 }
 .card {
+    color: #333333;
     margin-top: 80px;
     margin-right: 80px;
     margin-left: 80px;
@@ -110,14 +123,15 @@ a.csLink:hover{
 /* FORM */
 
 .form{
-text-align: center;
-padding-top: 100px;
-padding-bottom: 150px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-/* border: 5px solid black; */
+    color: #333333;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 5px solid black; */
 
 }
 .formBlock{
@@ -126,6 +140,7 @@ flex-direction: column;
     align-items: center;
     justify-content: center; */
     max-width: 800px;
+    color:#333333;
 
     /* border: 5px solid red; */
 }
@@ -134,12 +149,14 @@ flex-direction: column;
 }
 #messageInput{
     height: 100px;
+    color:#333333;
 }
 .form-control{
     /* border: 5px solid blue; */
     max-width: 100%;
     min-width: 400px;
     margin-top: 30px;
+    color: #333333;
 }
 .btn{
     margin-top: 30px;
