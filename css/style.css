@@ -144,6 +144,17 @@ a.csLink:hover{
     /* border: 5px solid black; */
 
 }
+.form-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-title p{
+    margin-top: 20px;
+    width: auto;
+    color: #3a86ff;
+}
 .formBlock{
     /* display: flex;
     flex-direction: row;
