@@ -102,6 +102,16 @@
             flex-direction: row;
             /* border: 2px solid red; */
         }
+        .socialLink{
+            text-decoration: none;
+            color:#333333;
+        }
+        .icon{
+            transition: transform .5s
+        }
+        .icon:hover{
+            transform:scale3d(1.2, 1.2, 1.2);
+        }
         .icon{
             margin: 30px;
             height: 40px;
@@ -118,10 +128,8 @@
             justify-content: center;
             /* border: 2px solid red; */
         }
-        .socialLink{
-            text-decoration: none;
-        }
-
+        
+        
 
 
         /* PROJECT GRID */
@@ -246,6 +254,16 @@
             justify-content: space-between;
             align-items: center;
         
+        }
+        .col-md-4{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            /* border: 2px solid red; */
+        }
+        .link{
+            text-decoration: none;
         }
 
 @media only screen and (max-width: 480px) {
