@@ -290,6 +290,9 @@
           background-color: #242F3F;
         } */
         
+        
+        /* LOADER */
+        
         .loader {
           display: inline-block;
           width: 30px;
@@ -308,7 +311,7 @@
           animation: loader-inner 2s infinite ease-in;
         }
         
-        /* LOADER */
+        
         .loader-wrapper{
             width: 100%;
             height: 100%;
